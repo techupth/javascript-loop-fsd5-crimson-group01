@@ -2,5 +2,7 @@
 let numbers = [10, 20, 30, 40, 50];
 let total = 0;
 // Start coding here
-
+for (let number of numbers) {
+  total = total + number;
+}
 console.log(total);
